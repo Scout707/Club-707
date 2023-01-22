@@ -1,0 +1,110 @@
+body , hr{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   
+body img{
+    position: absolute;
+    width: 100%;
+    
+    height: auto;
+    z-index: -1;
+} 
+
+    header h1{
+        font-family: 'Times New Roman', Times, serif;
+        color: #ff8c00;
+        position: fixed;
+        text-align: left;
+        z-index: 1;
+        width: 100%;
+        top: -30px;
+        padding: 35px;
+        animation-name: logo;
+        animation-duration: 5s;
+        
+    }
+    header h1 img{
+        width: 100%;
+        top: 0.1px;
+        position: fixed;
+        height: 100;
+        z-index: -1;
+        right: 0px;
+    }
+    @keyframes logo{
+        0%{color: rgb(63, 188, 255);}
+        25%{color: rgb(255, 38, 38);}
+        50%{color: rgb(255, 255, 54);}
+        75%{color: rgb(255, 105, 130);}
+        100%{color: #ff8c00;}
+    }
+    header h2 li{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: inline-block;
+        color: #ffffff;
+        position: relative;
+        margin-right: 20%;
+        z-index: 1;
+        top: -103px;
+        left: 290px;
+        font-size: 18px;
+        padding: 0px 0px;
+    }
+    header p{
+        background-color: #ff9500;
+        top: -21px;
+        position: fixed;
+        z-index: 1;
+        padding: 0.5px;
+        width: 100%;
+        height: 0.5px;
+        top: 82px;
+    }
+    header h2 li a{
+        color: #ffffff;
+        text-decoration: none;
+        position: fixed;
+        top: 35px;
+        width: 0%;
+        background-color: #ffa600;
+        
+    }
+    .underline-effect:hover{
+        
+        text-decoration-color: #ffa600;  
+        animation-name: links;
+        animation-duration: 2.3s;
+    }
+    @keyframes links{
+        0%{color: #ffffff;}
+        50%{color: #ff8c00;}
+        100%{color: #ffffff;}
+    }
+    
+    span img{
+        position: relative;
+        width: 100%;
+        
+    }
+    
+    body h3{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+        top: 20px;
+        padding-left: 40px;
+        color: #ff8c00;
+        margin-bottom: 2px;
+        letter-spacing: 3px;
+        display: flex;
+    }
+    body h4{
+        padding-left: 40px;
+        top: 50px;
+        font-size: 18px;
+        color: #ffffff;
+        line-height: 25px;
+        display: inline-block;
+    }
+    
